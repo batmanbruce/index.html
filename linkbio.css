@@ -2,13 +2,13 @@
 :root {
 	--darkest-color: #000000;
 	--lightest-color: #def3f6;
-	--highlight-color: #ffffff;
-	--bright-color-1: green;
+	--highlight-color:#ffff;
+	--bright-color-1: black;
 	--bright-color-2: #76b6c4;
 	--bright-color-3: #7fcdff;
 }
 body {
-	background: var(--darkest-color);
+	background: #c0c0c0;
 	color: var(--bright-color-1);
 	font-family: 'Inconsolata', sans-serif;
 }
@@ -20,7 +20,7 @@ body {
 	flex-direction: column;
 	text-align: center;
 }
-.round-shape {
+/**.round-shape {
     width: 100%;
     height: 240px;
     position: relative;
@@ -30,15 +30,16 @@ body {
     margin: 0 auto;
     
 
-}
+} **/
 .profile-pic{
     display: inline;
     margin: 0 auto;
-    height: 100%;
-    width: 100%;
+    height: 50%;
+	width: 50%;
+	border-radius: 40%;
     
     
-}
+} 
 
 a {
 	color: var(--bright-color-1);
@@ -53,16 +54,18 @@ a {
 	border: 2px solid var(--lightest-color);
 	box-sizing: round-box;
 	margin: 20px auto;
-	color: var(--bright-color-1);
-	padding: 15px;
+	color:var(--bright-color-1);
+	padding: 10px;
 	text-align: center;
 	transition: all 0.15s;
-	border-radius: 1px;
+	width: 50%;
+	border-radius: 20%;
+	
 }
 .link-list-item:hover,
 a:hover {
 	color: var(--darkest-color);
-	border-color: var(--highlight-color);
+	border-color: black;
 	text-shadow: 0 0 2em var(--highlight-color);
 }
 
