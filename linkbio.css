@@ -2,13 +2,13 @@
 :root {
 	--darkest-color: #000000;
 	--lightest-color: #def3f6;
-	--highlight-color:#ffff;
-	--bright-color-1: black;
+	--highlight-color:#261011;
+	--bright-color-1: white;
 	--bright-color-2: #76b6c4;
 	--bright-color-3: #7fcdff;
 }
 body {
-	background: #c0c0c0;
+	background: #261011;
 	color: var(--bright-color-1);
 	font-family: 'Inconsolata', sans-serif;
 }
@@ -51,7 +51,7 @@ a {
 }
 
 .link-list-item {
-	border: 2px solid var(--lightest-color);
+	border: 2px solid gray;
 	box-sizing: round-box;
 	margin: 20px auto;
 	color:var(--bright-color-1);
